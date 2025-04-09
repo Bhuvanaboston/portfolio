@@ -5,9 +5,11 @@ import { TypeAnimation } from 'react-type-animation';
 import { motion } from 'framer-motion';
 
 const downloadFile = () => {
-  window.location.href = '/Bhuvaneswari_Boston_M_Resume.pdf';
+  window.location.href = '/Bhuvaneswari_Resume.pdf';
 };
-
+const hireFile = () => {
+  window.location.href = '/Bhuvaneswari_PhotoResume.pdf';
+};
 const HeroSection = () => {
   return (
     <section className="lg:py-16">
@@ -45,7 +47,10 @@ const HeroSection = () => {
             cutting-edge technologies.
           </p>
           <div>
-            <button className="px-6 py-3 rounded-full w-full sm:w-fit  mr-4 bg-gradient-to-br from-blue-500 via-primary-500 to-secondary-500 hover:bg-slate-200 text-white">
+            <button
+              className="px-6 py-3 rounded-full w-full sm:w-fit  mr-4 bg-gradient-to-br from-blue-500 via-primary-500 to-secondary-500 hover:bg-slate-200 text-white"
+              onClick={hireFile}
+            >
               Hire Me
             </button>
             <button

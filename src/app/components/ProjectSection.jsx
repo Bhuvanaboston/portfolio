@@ -11,7 +11,7 @@ const projectsData = [
     description: 'Project 1 description',
     image: '/images/projects/1.png',
     tag: ['All', 'Web'],
-    gitUrl: '/',
+    gitUrl: 'https://github.com/Bhuvanaboston/portfolio',
     previewUrl: '/',
   },
   {
